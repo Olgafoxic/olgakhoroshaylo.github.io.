@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+	<title>Design</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+<header>
+		<div class="container">
+        <div class="row">
+        	<nav class="offset-lg-1 col-md-7 col-lg-6 menu d-none d-md-block">
+				<ul>
+					<li> <a href="menu_first.html" >О сайте</a></li>
+			        <li><a href="index.html"><span class="menu_sp">Блог о дизайне</span></a></li>
+			        <li><a href="menu_third.html">Контакты</a></li>
+				</ul>
+			</nav>
+		    <div class="offset-col-1 col-col-6">
+		    	<nav class="menusm col-8 d-md-none">
+		    		<button class="menusm_button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+		    		<ul>
+			       	   <li> <a href="menu_first.html" >О сайте</a></li>
+			           <li><a href="index.html"><span class="menu_sp">Блог о дизайне</span></a></li>
+			           <li><a href="menu_third.html">Контакты</a></li>
+			         </ul>
+		    	</nav> 
+		    </div>
+	    </div>
+		<div class="row design">
+			<div class="col-6 offset-lg-1 col-lg-7">
+           		<span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span>
+    	    </div>
+        </div>
+	</div>
+</header>
+<section id="first">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+		    	<div class="search-small-form">
+		    		<div class="row">
+		    			<div class="col-8">
+                    		<input type="text" class="input" id="text-to-find" placeholder='Например, создание лого' value=""> 
+                   		</div>
+                    	<div class="col-4">
+                    		<input type="button" class="find" onclick="javascript: FindOnPage('text-to-find'); return false;" value="Найти"/>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+		   <div class="col-12 offset-lg-1 col-lg-8">
+		    	<div class="sort">
+		    		<div class="col-4 col-lg-6 sortirovka"><p>Сортировка записей:</p></div>
+		    		<div class="col-4 col-lg-3">
+		    	    	<button class="new" onclick="javascript: DateSortNew()">Сначала новые</button>
+		    	    </div>
+		    	    <div class="col-4 col-lg-3">
+		    	   		<button class="old" onclick="javascript: DateSortOld()">Сначала старые</button>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+	</div>
+</section>
+<section id="second">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+		    		<ul class="menu_1">
+                        <li><a href="#video_1">Тренды веб-дизайна</a></li>
+                        <li><a href="#sourses">Источники вдохновения</a></li>
+                        <li><a href="#logo">Правила создания логотипа</a></li>
+                        <li><a href="#site">Основные элементы сайта</a></li>
+                    </ul>
+            </div>
+		    <div class="offset-lg-1 col-lg-8">
+		    	<div class="blog_1_1">
+			    	<div class="row">
+			    		<div class="col-12">
+			    			<div id ="logo">
+			    		    	<img src="img/logo.jpg" class="img-fluid" alt="Creating logo">
+			    		    </div>
+			     	    </div>
+			     	</div>
+			     		<div class="row">
+			    		<div class="col-12">
+			    			<div class ="text">
+			    				<p class="trends">Создание логотипа является важнейшим элементом имиджа компании!</p>
+								<p>Логотип, cоздание которого является необходимым элементом имиджа компании, должен запоминаться и быть оригинальным! Это ведь лицо компании. Да и товары без узнаваемого лого не вызывают большого доверия.</p>
+
+								<p>РТовары и услуги без узнаваемого логотипа сливаются с общей "серой" массой предложений, и сложнее становятся популярными. Потомуразработка логотипа - должна быть одним из ключевых элементов в создании вашего бренда!</p>
+
+								<p class="trends">О роли логотипа</p>
+
+								<p>Логотип – важный элемент фирменного стиля компании. Успешный логотип может увеличить эффект от рекламы и повлиять на ее восприятие на рынке. Упаковка товара, реклама, визитная карточка – везде логотип это первый элемент, при взгляде на который потребитель может что-то узнать о вашей организации!</p> 
+								<p>Логотип с первых минут знакомства должен запоминаться, отличаться и выделяться среди конкурентов. Создать логотип нужно изначально хорошо. Чтобы в будущем не возникло желание его изменить. Смена логотипа может повлечь за собой беду - потерю узнаваемости.</p>
+
+								<p class="trends">Создание логотипа и его составляющие</p>
+								<p class="trends">Логотип должен быть уникальным. </p>
+								<p>Большинство новых компаний полностью заимствуют дизайн логотипа, или некоторые его элементы. Не следует этого делать. Вы должны отличаться уникальностью.</p>
+								<p class="trends">Логотип должен передавать правильный образ основного посыла, </p>
+								<p>который вы хотите донести до потребителя.</p>
+
+								<p class="trends">Логотип должен быть хорошо читаем,</p>
+								<p>если человек сразу не поймет дизайн логотипа, значит он не эффективный.</p>
+								<p class="trends">Креатив в логотипе.</p>
+								<p>"Изюминка" в дизайне поможет привлечь внимание клиента.</p>
+								<p class="trends">Логотип должен быть стильным и сдержанным.</p>
+								<p>Многие желают создать логотип, который был бы сверхсовременным. Но, к сожалению, ультрасовременные лого быстро выходят из моды. Из-за чего приходится их постоянно изменять, что не идет на пользу компании.</p>
+								<p class="trends">Дизайн логотипа должен быть привлекательным для всех потенциальных клиентов. </p>
+								<p>Поэтому на этапе создания логотипа нужно проводить опросы и узнавать: что думают люди о предложенных вариантах дизайна, какие эмоции он вызывает и т.д.</p>
+								<p class="trends">Разработка логотипа и ее принципы</p>
+								<p>В любом размере логотип должен смотреться качественно и достойно.</p>
+								<p>В логотипе не должно быть лишних деталей, что могло бы отвлечь внимание на себя.</p>
+								<p>Разрабатывать логотип нужно для определенной целевой аудитории.</p>
+								<p>Необходимо чтоб все его элементы сочетались между собой и по цвету, и по размеру, и по форме.</p>
+								<p>Всего одно успешное изображение может сказать многое. Образ, который способен рассказать о миссии и о идеи компании, сможет привлечь потребителей, что в итоге сделает бренд востребованным.</p>
+			    		    </div>
+			     	    </div>
+			     	</div>
+			     	<div class="row">
+						<div class="col-5 col-lg-3">
+							<p class="data">01.03.19</p>
+						</div>
+						<div class="col-7 col-lg-9">
+							<form>
+			    			   <button class="more" formaction="index.html">Назад</button>
+			    			</form>
+			    		</div>
+			    	</div>	
+		        </div>
+		    </div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+        <div class="row">
+		    <div class="col-12">
+		    	<div class="end">
+		    		<p>Design  © Все права защищены. 2019</p>
+		    	</div>
+		    </div>
+		</div>
+	</div>
+</footer>
+<script src="js/common.js"></script>
+<script src="js/blog.js"></script>
+<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>

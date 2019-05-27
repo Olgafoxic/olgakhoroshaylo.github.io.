@@ -1,0 +1,139 @@
+@media only screen and (max-width : 1275px) {
+.design {
+	font-size: 220px;
+	padding-top: 100px;
+}
+header{
+	height: 630px;
+}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 991px) {
+	header {
+	height: 520px;
+}
+.design {
+	font-family: 'Mistral';
+	font-size: 180px;
+	align-items: center;
+	padding-top: 60px;
+}
+.input {
+    padding: 0 144px;
+}
+.find {
+    padding: 7px 53px 7px 53px;
+    margin-left: 59px;
+}
+#video_1 iframe{
+	margin-top: 20px;
+    width: 100%;
+    height: 400px;
+}
+.sort{
+	margin-top: 20px;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 767px) {
+#first p, .menu_1 a {
+    font-family: 'Ms Sans Serif';
+    font-size: 14px;
+    color: #d23058;
+    text-decoration: none;
+}
+#first button{
+	font-size: 14px;
+}
+header{
+	height: 500px;
+}
+.input {
+    padding: 0 84px;
+}
+.sort{
+	margin-top: 15px;
+}
+.find {
+    padding: 7px 52px 7px 52px;
+    margin-left: 0px;
+}
+.design{
+	font-family: 'Mistral';
+	font-size: 120px;
+	align-items: center;
+	padding-top: 200px;
+}	
+.menusm ul li  {
+	display: block;
+	font-family: 'Mistral';
+	font-size: 30px;
+}
+.buttons, nav {
+    margin-top: 20px;
+}
+#video_1 iframe{
+	margin-top: 20px;
+    width: 100%;
+    height: 300px;
+}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 350px) {
+header{
+	height: 300px;
+}
+#first button {
+	width: 100%;
+}
+.buttons, nav {
+    margin-top: 20px;
+}
+.design{
+	font-size: 85px;
+	padding-top: 130px;
+}	
+#first {
+    padding-top: 20px;
+}
+.search-small-form col-8{
+  padding-right: 0px;
+}
+.search-small-form col-4{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#first button{
+	font-size: 12px;
+	width: 95%;
+}
+#first p, .menu_1 a {
+    font-family: 'Ms Sans Serif';
+    font-size: 12px;
+    color: #d23058;
+    text-decoration: none;
+}
+.menu_1 a {
+    font-size: 12px;
+}
+#video_1 iframe{
+	margin-top: 20px;
+    width: 100%;
+    height: 200px;
+}
+.find {
+   padding: 7px 20px 7px 20px;
+}
+.menusm ul li  {
+	display: block;
+	font-family: 'Mistral';
+	font-size: 18px;
+}
+.input {
+	border-style: solid;
+	border-width: 2px;
+	border-color:#294317;
+	height: 30px;
+	padding: 0 20px;
+}
+}

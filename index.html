@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+	<title>Design</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+<header>
+	<div class="container">
+        <div class="row">
+        	<nav class="offset-lg-1 col-md-7 col-lg-6 menu d-none d-md-block">
+				<ul>
+					<li class="active"> <a href="menu_first.html" >О сайте</a></li>
+			        <li><a href="index.html"><span class="menu_sp">Блог о дизайне</span></a></li>
+			        <li><a href="menu_third.html">Контакты</a></li>
+				</ul>
+			</nav>
+		    <div class="offset-col-1 col-col-6">
+		    	<nav class="menusm col-8 d-md-none">
+		    		<button class="menusm_button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+		    		<ul>
+			       	   <li class="active"> <a href="menu_first.html" >О сайте</a></li>
+			           <li><a href="index.html"><span class="menu_sp">Блог о дизайне</span></a></li>
+			           <li><a href="menu_third.html">Контакты</a></li>
+			         </ul>
+		    	</nav> 
+		    </div>
+	    </div>
+		<div class="row design">
+			<div class="col-6 offset-lg-1 col-lg-7">
+           		<span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span>
+    	    </div>
+        </div>
+	</div>
+</header>
+<section id="first">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+		    	<div class="search-small-form">
+		    		<div class="row">
+		    			<div class="col-8">
+                    		<input type="text" class="input" id="text-to-find" placeholder='Например, создание лого' value=""> 
+                   		</div>
+                    	<div class="col-4">
+                    		<input type="button" class="find" onclick="javascript: FindOnPage('text-to-find'); return false;" value="Найти"/>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+		    <div class="col-12 offset-lg-1 col-lg-8">
+		    	<div class="sort">
+		    		<div class="col-4 col-lg-6 sortirovka"><p>Сортировка записей:</p></div>
+		    		<div class="col-4 col-lg-3">
+		    	    	<button class="new" onclick="javascript: DateSortNew()">Сначала новые</button>
+		    	    </div>
+		    	    <div class="col-4 col-lg-3">
+		    	   		<button class="old" onclick="javascript: DateSortOld()">Сначала старые</button>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+	</div>
+</section>
+<section id="second">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+		    		<ul class="menu_1">
+                        <li><a href="#video_1">Тренды веб-дизайна</a></li>
+                        <li><a href="#sourses">Источники вдохновения</a></li>
+                        <li><a href="#logo">Правила создания логотипа</a></li>
+                        <li><a href="#site">Основные элементы сайта</a></li>
+                    </ul>
+            </div>
+		    <div class="offset-lg-1 col-lg-8">
+		    	<div class="blog_1_1">
+		    			<div id="id3">
+			    		<div class="row">
+			    			<div class="col-12">
+			    				<div id ="video_1" data-src="https://www.youtube.com/com/embed///VL3gFC_p0WI" data-vendor="youtube" >
+			    					<iframe id = "lazyframe-VL3gFC_p0WI" src="https://www.youtube.com/embed/VL3gFC_p0WI" ></iframe>
+			    		    	</div>
+			     	    	</div>
+			     		</div>
+			     		<div class="row">
+			    	    	<div class="col-12">
+			    	    		<div class="text">
+			    		    		<p>Дизайнеры создают то, что вы должны увидеть, захотеть и полюбить. Мы проанализируем, какой дизайн будет пользоваться особой популярностью в 2019 году...</p>
+			    		   		 </div>
+			     	   	    </div>
+			     		</div>
+						<div class="info">
+							<div class="row">
+								<div class="col-5 col-lg-3">
+									<p class="data">03.05.19</p>
+								</div>
+								<div class="col-7 col-lg-9">
+									<form>
+				    				    <button class="more" formaction="menu_second_first.html">Подробнее</button>
+				    				</form>
+				    			</div>
+				    		</div>
+			    		</div>	
+			        </div>
+			    <div id="id2">
+			    	<div class="row">
+			    		<div class="col-12">
+			    			<div id ="sourses">
+			    		    	<img src="img/inspire.jpg" class="img-fluid" alt="sourses of inspiring">
+			    		    </div>
+			     	    </div>
+			     	</div>
+			     	<div class="row">
+			     		<div class="col-12">
+			    	    	<div class="text">
+			    		    	<p>Для того, чтобы набраться впечатлений для работы, я бы посоветовала несколько вещей:...</p>
+			    		    </div>
+			       		 </div>
+			        </div>
+			     	<div class="info">
+						<div class="row">
+							<div class="col-5 col-lg-3">
+								<p class="data">28.04.19</p>
+							</div>
+							<div class="col-7 col-lg-9">
+								<form>
+				    			   <button class="more" formaction="menu_second_second.html">Подробнее</button>
+				    			</form>
+				    		</div>
+			    		</div>
+			    	</div>	
+			    </div>
+			    <div id="id1">
+			    	<div class="row">
+			    		<div class="col-12">
+			    			<div id ="logo">
+			    		    	<img src="img/logo.jpg" class="img-fluid" alt="Creating logo">
+			    		    </div>
+			     	    </div>
+			     	</div>
+			     	<div class="row">
+			     		<div class="col-12">
+			    	    	<div class="text">
+			    		    	<p>Создание логотипа является важнейшим элементом имиджа компании!</p>
+			    		    </div>
+			       		</div>
+			        </div>
+			     
+			     	<div class="info">
+						<div class="row">
+							<div class="col-5 col-lg-3">
+								<p class="data">01.03.19</p>
+							</div>
+							<div class="col-7 col-lg-9">
+								<form>
+				    			    <button class="more" formaction ="menu_second_third.html">Подробнее </button>
+				    			</form>
+				    		</div>
+				    	</div>	
+				    </div>
+				    </div>	
+				    <div id="id0">
+				    <div class="row">
+			    		<div class="col-12">
+			    			<div id ="site">
+			    		    	<img src="img/web.png" class="img-fluid" alt="creating a site">
+			    		    </div>
+			     	    </div>
+			     	</div>
+			     	<div class="row">
+			     		<div class="col-12">
+			    	    	<div class="text">
+			     				<p>Дизайнерам важно понимать, что Интернет состоит из стандартных элементов, своего рода кирпичиков, которыми можно пользоваться при построении сайта.</p>
+			     			</div>
+			     		</div>
+			     	</div>
+			     	<div class="info">
+						<div class="row">
+							<div class="col-5 col-lg-3">
+								 <p class="data">19.02.19</p>
+							</div>
+							<div class="col-7 col-lg-9">
+								<form>
+				    			   <button class="more" formaction="menu_second_fourth.html">Подробнее</button>
+				    			</form>
+				    		</div>
+				    	</div>	
+				    </div>	
+				    </div>		
+			    </div>	
+		    </div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+        <div class="row">
+		    <div class="col-12">
+		    	<div class="end">
+		    		<p>Design  © Все права защищены. 2019</p>
+		    	</div>
+		    </div>
+		</div>
+	</div>
+</footer>
+<script src="js/common.js"></script>
+<script src="js/blog.js"></script>
+<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>

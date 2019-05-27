@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+	<title>Design</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+<header>
+		<div class="container">
+        <div class="row">
+        	<nav class="offset-lg-1 col-md-7 col-lg-6 menu d-none d-md-block">
+				<ul>
+					<li> <a href="menu_first.html" >О сайте</a></li>
+			        <li><a href="index.html"><span class="menu_sp">Блог о дизайне</span></a></li>
+			        <li><a href="menu_third.html">Контакты</a></li>
+				</ul>
+			</nav>
+		    <div class="offset-col-1 col-col-6">
+		    	<nav class="menusm col-8 d-md-none">
+		    		<button class="menusm_button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+		    		<ul>
+			       	   <li> <a href="menu_first.html" >О сайте</a></li>
+			           <li><a href="index.html"><span class="menu_sp">Блог о дизайне</span></a></li>
+			           <li><a href="menu_third.html">Контакты</a></li>
+			         </ul>
+		    	</nav> 
+		    </div>
+	    </div>
+		<div class="row design">
+			<div class="col-6 offset-lg-1 col-lg-7">
+           		<span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span>
+    	    </div>
+        </div>
+	</div>
+</header>
+<section id="first">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+		    	<div class="search-small-form">
+		    		<div class="row">
+		    			<div class="col-8">
+                    		<input type="text" class="input" id="text-to-find" placeholder='Например, создание лого' value=""> 
+                   		</div>
+                    	<div class="col-4">
+                    		<input type="button" class="find" onclick="javascript: FindOnPage('text-to-find'); return false;" value="Найти"/>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+		    <div class="col-12 offset-lg-1 col-lg-8">
+		    	<div class="sort">
+		    		<div class="col-4 col-lg-6 sortirovka"><p>Сортировка записей:</p></div>
+		    		<div class="col-4 col-lg-3">
+		    	    	<button class="new" onclick="javascript: DateSortNew()">Сначала новые</button>
+		    	    </div>
+		    	    <div class="col-4 col-lg-3">
+		    	   		<button class="old" onclick="javascript: DateSortOld()">Сначала старые</button>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+    </div>
+</section>
+<section id="second">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+		    		<ul class="menu_1">
+                        <li><a href="#video_1">Тренды веб-дизайна</a></li>
+                        <li><a href="#sourses">Источники вдохновения</a></li>
+                        <li><a href="#logo">Правила создания логотипа</a></li>
+                        <li><a href="#">Основные элементы сайта</a></li>
+                    </ul>
+            </div>
+		    <div class="offset-lg-1 col-lg-8">
+		    	<div class="blog_1_1">
+			    	<div class="row">
+			    		<div class="col-12">
+			    			<div id ="sourses">
+			    		    	<img src="img/inspire.jpg" class="img-fluid" alt="sourses of inspiring">
+			    		    </div>
+			     	    </div>
+			     	</div>
+			     		<div class="row">
+			    		<div class="col-12">
+			    			<div class ="text">
+			    				<p class="trends">Вдохновение — это некий творческий порыв!</p>
+								<p>Для художников, музыкантов, писателей, поэтов, вдохновение необходимо. Любому поэту нужна Болдинская осень, а каждому художнику — сильное впечатление.</p>
+
+								<p>Разумеется, область графического дизайна, так или иначе, связана с искусством, но дизайн в чистом виде искусством не является. В отличие от живописи и поэзии, дизайн не является искусством ради искусства. Дизайн — это не цель, а средство продвижения тех или иных товаров и услуг. Поэтому не стоит полностью зависеть от приливов вдохновения, заказчик вас ждать не будет.</p>
+
+								<p>Скорее всего, говоря о вдохновении для дизайна, мы имеем ввиду источники креативных идей или наглядные примеры удачных работ, которые будут нам способствовать в выполнении определённой задачи.</p>
+
+								<p class="trends">Для того, чтобы набраться впечатлений для работы, я бы посоветовала несколько вещей:</p> 
+								<p class="trends">Профессиональная среда.</p>
+
+								<p>Если вы уже каким-то образом связаны с дизайном и графикой, старайтесь побольше общаться, наблюдать, просто советоваться со своими коллегами.</p>
+
+								<p class="trends">Ближайшее окружение.</p>
+								 <p>Не пренебрегайте и «не профессиональными» советами.  Однажды я работала над логотипом и никак не мог определиться с ведущей идеей. В этот момент близкий мне человек, не связанный с дизайном, взглянул на наброски логотипа и проронил фразу, которая и навела меня на очень ценную мысль.</p>
+
+								<p class="trends">Выставки дизайна, конкурсы и международные биеннале.</p>
+								<p class="trends">Создайте себе  каталог из дизайнерских сайтов, порталов.</p>
+								<p>Именно там дизайнеры выставляют свои работы, обмениваются впечатлениями, пишут статьи.</p>
+
+								<p class="trends">Старый и добрый источник вдохновения — это книги.</p>
+								<p>Хорошие книги о дизайне должны быть у вас всегда под рукой.</p>
+								<p class="trends">Наблюдать за работой профессионала.</p>
+								<p>Самому учиться и перенимать их профессиональные навыки.
+								Здесь вам помогут видеоуроки признанных мастеров дизайна.</p>
+			    		    </div>
+			     	    </div>
+			     	</div>
+			     	<div class="row">
+						<div class="col-5 col-lg-3">
+							<p class="data">28.04.19</p>
+						</div>
+						<div class="col-7 col-lg-9">
+			    			<button class="more"><a href="index.html">Назад</a></button>
+			    		</div>
+			    	</div>	
+		        </div>
+		    </div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+        <div class="row">
+		    <div class="col-12">
+		    	<div class="end">
+		    		<p>Design  © Все права защищены. 2019</p>
+		    	</div>
+		    </div>
+		</div>
+	</div>
+</footer>
+<script src="js/common.js"></script>
+<script src="js/blog.js"></script>
+<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
